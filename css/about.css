@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--gray-dark);
+	font-family: Montserrat, sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	margin: 0;
+}
+
+h3 {
+	margin: 20px 0;
+	font-size: 3rem;
+	color: white;
+	font-family: 'Montserrat';
+}
+
+h6 {
+	margin: 10px 0;
+	font-size: 2rem;
+	color: white;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 1.5rem;
+	color: white;
+	line-height: 21px;
+	margin: 20px 0;
+}
+
+.about{
+	width: 100%;
+}
+
+.round{
+	height: 127px;
+	width: 128px;
+	background-color: black;
+}
+
+.card-container {
+	background-color: rgb(35, 30, 57,0.3);
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 400px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+button.primary {
+	background-color: #03BFCB;
+	border: 1px solid #03BFCB;
+	border-radius: 3px;
+	color: #231E39;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+	color: #02899C;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+	color: white;
+}
